@@ -2,7 +2,7 @@
 
 function display_mailchimp_campaigns() {
     $api_key = '{your_mailchimp_api_key}';
-    $dc = '{your_mailcjimp_data_center}';
+    $dc = '{your_mailchimp_data_center}';
     $url = "https://$dc.api.mailchimp.com/3.0/campaigns?count=1000";
 
     $response = wp_remote_get($url, [
